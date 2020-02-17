@@ -41,7 +41,7 @@ class _LoginWidgetState extends State<LoginWidget> {
     }
 
     navigateToWidget(widget) {
-      Navigator.pushReplacement(
+      Navigator.push(
         context,
         MaterialPageRoute(
           builder: (context) => widget,
